@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 
 # API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
-API_URL = "https://api-inference.huggingface.co/models/rinna/japanese-gpt2-small"
+# API_URL = "https://api-inference.huggingface.co/models/rinna/japanese-gpt2-small"
+API_URL = "https://api-inference.huggingface.co/models/cyberagent/open-calm-small"
 headers = {"Authorization": f"Bearer {st.secrets['HF_API_TOKEN']}"}
 
 
